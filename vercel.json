@@ -10,7 +10,7 @@
         {
             "src": "/ProductsIMg/(.*)",
             "dest": "/public/ProductsIMg/$1"
-        }
+        },
       {
         "src": "/(.*)",
         "dest": "index.js"
