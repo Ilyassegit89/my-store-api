@@ -14,7 +14,7 @@ app.use(cors({
 }));
 
 const products = [
-    { category : "men's Clothing", id: 1 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p1.png" ,price: 25.25 , title: "Mushroom shirt"},
+    { category : "men's Clothing", id: 1 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p1.png" ,price: 25.25 , title: "Mushroom shirt"},
     { category : "men's Clothing", id: 2 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p2.png" ,price: 15.5 , title: "Tshirt Cat"},
     { category : "men's Clothing", id: 3 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p3.png" ,price: 15.2 , title: "Planet Tshirt"},
     { category : "men's Clothing", id: 4 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p4.png" ,price: 15.4 , title: "Dragon Tshirt"},
