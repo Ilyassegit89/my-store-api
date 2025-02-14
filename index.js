@@ -14,12 +14,12 @@ app.use(cors({
 }));
 
 const products = [
-    { category : "men's Clothing", id: 1 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p1.png" ,price: 25.25 , title: "Mushroom shirt"},
-    { category : "men's Clothing", id: 2 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p2.png" ,price: 15.5 , title: "Tshirt Cat"},
-    { category : "men's Clothing", id: 3 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p3.png" ,price: 15.2 , title: "Planet Tshirt"},
-    { category : "men's Clothing", id: 4 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p4.png" ,price: 15.4 , title: "Dragon Tshirt"},
-    { category : "men's Clothing", id: 5 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p5.png" ,price: 30.25 , title: "Blue blaze Butterfly shirt"},
-    { category : "women's Clothing", id: 6 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p6.png" ,price: 25.5 , title: "Butterfly shirt Women"},
+    { category : "men's Clothing", id: 1 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p1.png" ,price: 25.25 , title: "Mushroom shirt"},
+    { category : "men's Clothing", id: 2 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p2.png" ,price: 15.5 , title: "Tshirt Cat"},
+    { category : "men's Clothing", id: 3 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p3.png" ,price: 15.2 , title: "Planet Tshirt"},
+    { category : "men's Clothing", id: 4 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p4.png" ,price: 15.4 , title: "Dragon Tshirt"},
+    { category : "men's Clothing", id: 5 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p5.png" ,price: 30.25 , title: "Blue blaze Butterfly shirt"},
+    { category : "women's Clothing", id: 6 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p6.png" ,price: 25.5 , title: "Butterfly shirt Women"},
     { category : "men's Clothing", id: 7 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p7.png" ,price: 40 , title: "Fire Hoodie Black"},
     { category : "men's Clothing", id: 8 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p8.png" ,price: 36.2 , title: "Fire Hoodie White 'Expect'"},
     { category : "men's Clothing", id: 9 ,image: "https://my-store-api-blush.vercel.app/ProductsImg/p9.png" ,price: 45.65 , title: "Winter Coat BLack"},
