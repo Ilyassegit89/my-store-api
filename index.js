@@ -15,7 +15,7 @@ app.use(cors({
 
 const products = [
     { category : "men's Clothing", id: 1 ,image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" ,price: 109.95 , title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"},
-    { category : "men's Clothing", id: 2 ,image: "/ProductsIMg/p1.png" ,price: 109.95 , title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"},
+    { category : "men's Clothing", id: 2 ,image: "https://my-store-api-blush.vercel.app/ProductsIMg/p1.png" ,price: 109.95 , title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"},
 ]
 
 app.get('/', function (req, res) {

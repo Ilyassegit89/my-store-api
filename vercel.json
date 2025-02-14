@@ -7,12 +7,10 @@
       }
     ],
     "routes": [
-    {
-      "src": "/ProductsIMg/(.*)",
-      "dest": "/public/ProductsIMg/$1"
-    }
-  ],
-  "static": {
-    "public": "public"
+      {
+        "src": "/(.*)",
+        "dest": "index.js"
+      }
+    ]
   }
-  }
+  
