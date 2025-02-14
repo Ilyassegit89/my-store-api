@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://127.0.0.1:5173', // Allow only your frontend origin
+  origin: 'http://127.0.0.1:5174', // Allow only your frontend origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   credentials: true, // Allow cookies and credentials
 }));
