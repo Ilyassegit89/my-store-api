@@ -5,7 +5,12 @@ const path = require('path');
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+// Enable CORS for all routes
+app.use(cors({
+  origin: 'http://127.0.0.1:5173', // Allow only your frontend origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
+  credentials: true, // Allow cookies and credentials
+}));
 
 const products = [
     { category : "men's clothing", id: 1 ,image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" ,price: 109.95 , title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"},
